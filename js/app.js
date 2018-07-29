@@ -78,7 +78,7 @@
         addClass(title, 'animated');
         removeClass(title, 'fadeOut');
         addClass(title, 'fadeIn');
-        myImage.src = './assets/63490004.JPG';
+        myImage.src = './assets/63490004.jpg';
       } else {
         previousArrow.style = 'opacity: 1; pointer-events: auto;';
         removeClass(title, 'animated');
