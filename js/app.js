@@ -57,7 +57,6 @@
 
     var changeImageSize = function changeImageSize(image) {
       var browserWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-      //var browserHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
       if (browserWidth > 1000) {
         image.addEventListener('load', function() {
@@ -99,7 +98,6 @@
 
     var handleNextArrow = function handleNextArrow() {
       slideNumber += 1;
-      console.log(slideNumber);
       if (slideNumber === 23) {
         slideNumber = 0;
       }
