@@ -46,13 +46,41 @@
       '63490016.JPG',
       '63490017.JPG',
       '63490019.JPG',
+      '003_24a.jpg',
+      '004_23a.jpg',
+      '009_18a.jpg',
+      '020_07a.jpg',
+      'kyle.JPG',
+      '37960005.JPG',
+      '37960009.JPG',
+      '37960014.JPG',
+      '37960019.JPG',
+      '37960020.JPG',
+      '37960027.JPG',
+      '46530005.JPG',
+      '46530008.JPG',
+      '46530019.JPG',
+      '63490024.JPG',
+      '63490026.JPG',
+      'weDontExist.JPG',
+      'laurenSupreme.JPG',
+      'lowLight.JPG',
+      'milkyJer.JPG',
+      'mask1.JPG',
+      'milk.JPG',
+      'monument.JPG',
+      'mountains.JPG',
+      'noPost.JPG',
       '63490020.JPG',
       '63490021.JPG',
       '63490022.JPG',
       '63490023.JPG',
-      '63490024.JPG',
-      '63490025.JPG',
-      '63490026.JPG',
+      'bigKahuna.JPG',
+      'anarchyBurger.JPG',
+      'Earn.JPG',
+      'frontside.JPG',
+      'earnSmoke.JPG',
+      'hammoc.JPG',
     ];
 
     var changeImageSize = function changeImageSize(image) {
@@ -60,7 +88,11 @@
 
       if (browserWidth > 1000) {
         image.addEventListener('load', function() {
-          if (this.naturalWidth === 2048 && this.naturalHeight === 3088) {
+          if (this.naturalWidth === 2048 && this.naturalHeight === 3088 ||
+              this.naturalWidth === 2048 && this.naturalHeight === 3072 ||
+              this.naturalWidth === 1992 && this.naturalHeight === 2989 ||
+              this.naturalWidth === 2000 && this.naturalHeight === 3000 ||
+              this.naturalWidth === 1999 && this.naturalHeight === 3000) {
             this.style = 'max-width: 35%';
           } else {
             this.style = 'max-width: 75%';
@@ -98,7 +130,7 @@
 
     var handleNextArrow = function handleNextArrow() {
       slideNumber += 1;
-      if (slideNumber === 23) {
+      if (slideNumber === 51) {
         slideNumber = 0;
       }
       toggleItems();
