@@ -16,11 +16,11 @@ a:visited {
   justify-content: space-between;
   align-items: center;
   background-color: #000;
-  background-image: url(./assets/port.gif);
+  background-image: url('./photo/assets/port.gif');
   background-repeat: repeat-y;
 }
 
-.titleCardDiv, .winter, .early, .newYearsRevo, .theEnd, .theFall, .shitty, .shootin, .march, .cosmic, .truckin {
+.titleCardDiv, .untilNow, .winter, .early, .newYearsRevo, .theEnd, .theFall, .shitty, .shootin, .march, .cosmic, .truckin {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,6 +53,10 @@ a:visited {
 
 .titleCard p {
   font-size: .4em;
+}
+
+.untilNow {
+  background-image: url('./photo/assets/63490022.JPG');
 }
 
 .winter {
